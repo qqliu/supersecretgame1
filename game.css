@@ -1,3 +1,12 @@
-canvas {
-	cursor: none;
+/* CSS files use a different syntax from HTML and JS files. Note: this is a comment in CSS - 
+notice how the syntax is different from an HTML comment. */
+
+/* CSS is used to style a webpage. The syntax looks like this:
+
+selector {
+	attribute: value;
+	attribute: value;
+	etc.
 }
+
+*/
