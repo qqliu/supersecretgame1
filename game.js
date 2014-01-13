@@ -1,8 +1,20 @@
-window.onload = function() {
-	// SETUP
+/* 
+  The JS file manipulates HTML objects and is capable of making webpages interact with users.
+ 
+  JS has two different kinds of comments - multiline and single-line. This is a multiline comment.
+ */
 
+// This is a single-line comment.
+
+/* We want to make sure our code runs after everything has loaded, 
+	so we wrap our code in a function that will be called when the 
+	window loads using the following syntax:
+
+	window.onload = function() {our code goes here};
+*/
+window.onload = function() {
 	// grab canvas
-	var canvas = document.getElementsByTagName("canvas")[0];
+	var canvas = document.getElementById("game-canvas");
 	canvas.width = 500;
 	canvas.height= 400;
 	var ctx = canvas.getContext("2d");
@@ -95,4 +107,4 @@ window.onload = function() {
 	}
 
 	setInterval(main, 1);
-}
+};
