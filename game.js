@@ -13,7 +13,8 @@ window.onload = function() {
 	bgImage.onload = function () {
 		bgReady = true;
 	};
-	bgImage.src = "http://www.classyartwork.com/images/landscapes/pond_illustration_l3.jpg";
+	// image source: http://www.classyartwork.com/images/landscapes/pond_illustration_l3.jpg
+	bgImage.src = "images/background.jpg";
 
 	// player image
 	var playerReady = false;
@@ -21,7 +22,8 @@ window.onload = function() {
 	playerImage.onload = function () {
 		playerReady = true;
 	};
-	playerImage.src = "http://4vector.com/i/free-vector-crosshairs-clip-art_105823_Crosshairs_clip_art_hight.png";
+	// image source: http://4vector.com/i/free-vector-crosshairs-clip-art_105823_Crosshairs_clip_art_hight.png
+	playerImage.src = "images/crosshair.png";
 
 	// duck image
 	var duckReady = false;
@@ -29,7 +31,8 @@ window.onload = function() {
 	duckImage.onload = function () {
 		duckReady = true;
 	}
-	duckImage.src = "http://www.clker.com/cliparts/e/a/4/b/13419561141016031803Shaking%20Duck.svg.hi.png";
+	// image source: http://www.clker.com/cliparts/e/a/4/b/13419561141016031803Shaking%20Duck.svg.hi.png
+	duckImage.src = "images/duck.png";	
 
 	// OBJECTS
 
